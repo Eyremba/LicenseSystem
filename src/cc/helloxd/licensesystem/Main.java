@@ -1,3 +1,5 @@
+//@ https://github.com/ByteCode-DirectLeaks <3
+//@ https://github.com/ByteCode-DirectLeaks <3
 public String staticabusexdxd ("%%__USER__%%");
 
 private static void AntiPiracy() {
@@ -47,4 +49,4 @@ private static void AntiPiracy() {
  
  }
 
-//@ https://github.com/ByteCode-DirectLeaks <3
+
