@@ -1,10 +1,13 @@
 //@ https://github.com/ByteCode-DirectLeaks <3
 //@ https://github.com/ByteCode-DirectLeaks <3
 //changed some thing to the original Hotspot code, didnt tested it out
-public boolean isblocked = false;
 
-	
-	
+
+
+
+
+
+public boolean isblocked = false;
 
 	public void AntiPiracy() {
      	try {
