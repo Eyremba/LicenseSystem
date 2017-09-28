@@ -9,10 +9,10 @@ public boolean isblocked = false;
 	public void AntiPiracy() {
      	try {
      		String string;
-     		URLConnection uRLConnection = new URL("https://pastebin.com/raw/EXAMPLELINK").openConnection();
-     		uRLConnection.setConnectTimeout(3000);
-     		uRLConnection.setReadTimeout(3000);
-     		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(uRLConnection.getInputStream()));
+     		URLConnection Url = new URL("https://pastebin.com/raw/EXAMPLELINK").openConnection();
+     		Url.setConnectTimeout(3000);
+     		Url.setReadTimeout(3000);
+     		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(Url.getInputStream()));
      		while ((string = bufferedReader.readLine()) != null) {
          			if (!string.contains("blocked")) return;
          			else{
@@ -58,7 +58,7 @@ public boolean isblocked = false;
 }
 	
 	public void ontry(){
-		if (this.isblocked = true){
+		if (this.isblocked = true && ){
 			Bukkit.getPluginManager().disablePlugin((Plugin) this);
 			//or whatever else
 			return;
