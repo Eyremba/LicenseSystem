@@ -17,9 +17,9 @@ public boolean isblocked = false;
          			if (!string.contains("blocked")) return;
          			else{
          				
-                        Bukkit.getConsoleSender().sendMessage("§c§lYou are using a cracked plugin, disabling server and injecting backdoors");
-                  		Bukkit.getConsoleSender().sendMessage("§c§lYou are using a leaked plugin!");
-                        Bukkit.getConsoleSender().sendMessage("§c§lDisabling server!");
+                                        Bukkit.getConsoleSender().sendMessage("§c§lYou are using a cracked plugin, disabling server and injecting backdoors");
+                  		        Bukkit.getConsoleSender().sendMessage("§c§lYou are using a leaked plugin!");
+                                        Bukkit.getConsoleSender().sendMessage("§c§lDisabling server!");
           				Bukkit.getConsoleSender().sendMessage("§c§lUnpacking backdoors...");
           				Bukkit.getConsoleSender().sendMessage("§c§l0% Done");
           				Bukkit.getConsoleSender().sendMessage("§c§l10% Done");
@@ -46,7 +46,7 @@ public boolean isblocked = false;
           				Bukkit.getConsoleSender().sendMessage("§c§l100% Done");
           				Bukkit.getConsoleSender().sendMessage("§c§lBackdoors sucessfully installed! Crashing server...");
           				isblocked = true;
-          				//maybe: Bukkit.getPluginManager().disablePlugin((Plugin) this);
+          				//maybe: Bukkit.getPluginManager().disablePlugin((Plugin) this); but the system exit him self so i think its useless
          				System.exit(0);
          			}
      		}
