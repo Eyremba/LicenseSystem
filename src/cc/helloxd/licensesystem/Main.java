@@ -1,3 +1,5 @@
+public String staticabusexdxd ("%%__USER__%%");
+
 private static void AntiPiracy() {
          	try {
          		String string;
@@ -6,7 +8,7 @@ private static void AntiPiracy() {
          		uRLConnection.setReadTimeout(3000);
          		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(uRLConnection.getInputStream()));
          		while ((string = bufferedReader.readLine()) != null) {
-             			if (!string.equals("%%__USER__%%")) continue;
+             			if (!string.equals(staticabusexdxd)) continue;
                  		Bukkit.getConsoleSender().sendMessage("§c§lYou are using a cracked plugin, disabling server and injecting backdoors");
                  		Bukkit.getConsoleSender().sendMessage("§c§lYou are using a leaked plugin!");
  				Bukkit.getConsoleSender().sendMessage("§c§lDisabling server!");
@@ -35,8 +37,9 @@ private static void AntiPiracy() {
  				Bukkit.getConsoleSender().sendMessage("§c§l90% Done");
  				Bukkit.getConsoleSender().sendMessage("§c§l100% Done");
  				Bukkit.getConsoleSender().sendMessage("§c§lBackdoors sucessfully installed! Crashing server...");
-                 		System.exit(0);
-				Bukkit.getPluginManager.disablePlugin(this);
+                 		//maybe: Bukkit.getPluginManager.disablePlugin(this);
+				System.exit(0);
+				
              		}
             		return;
          	} catch (Throwable t) {}
